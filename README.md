@@ -1,24 +1,3 @@
-# Employee Management System
-
-This is a Spring Boot application that implements an Employee Management System. It provides RESTful APIs for managing employees and departments within an organization.
-
-## Table of Contents
-- [Project Structure](#project-structure)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup and Installation](#setup-and-installation)
-- [Running the Application](#running-the-application)
-- [API Documentation](#api-documentation)
-
-## Project Structure
-
-The project follows a layered architecture with distinct separation of concerns. Below is the directory structure:
-
-Here's a comprehensive README.md for your employee-management Spring Boot project, covering essential details about the project, its structure, dependencies, and usage:
-
-# Employee Management System
-
-This is a Spring Boot application that implements an Employee Management System. It provides RESTful APIs for managing employees and departments within an organization.
 
 ## Table of Contents
 - [Project Structure](#project-structure)
