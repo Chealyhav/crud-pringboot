@@ -9,8 +9,6 @@ This is a Spring Boot application that implements an Employee Management System.
 - [Setup and Installation](#setup-and-installation)
 - [Running the Application](#running-the-application)
 - [API Documentation](#api-documentation)
-- [Testing](#testing)
-- [License](#license)
 
 ## Project Structure
 
@@ -33,11 +31,6 @@ This is a Spring Boot application that implements an Employee Management System.
 - [License](#license)
 
 ## Project Structure
-
-The project follows a layered architecture with distinct separation of concerns. Below is the directory structure:
-
-employee-management/ ├── src/ │ ├── main/ │ │ ├── java/ │ │ │ └── com/ │ │ │ └── example/ │ │ │ └── employeemanagement/ │ │ │ ├── EmployeeManagementApplication.java # Main Application Class │ │ │ ├── controller/ # Web layer (REST Controllers) │ │ │ │ ├── EmployeeController.java # REST APIs for Employee │ │ │ │ └── DepartmentController.java # REST APIs for Department │ │ │ ├── model/ # Domain layer (Entities) │ │ │ │ ├── Employee.java # Employee Entity │ │ │ │ └── Department.java # Department Entity │ │ │ ├── repository/ # Data access layer (JPA Repositories) │ │ │ │ ├── EmployeeRepository.java # Repository for Employee │ │ │ │ └── DepartmentRepository.java # Repository for Department │ │ │ ├── service/ # Service layer (Business logic) │ │ │ │ ├── EmployeeService.java # Employee-related services │ │ │ │ └── DepartmentService.java # Department-related services │ │ │ ├── dto/ # Data Transfer Objects (DTOs) │ │ │ │ ├── EmployeeDTO.java # Employee DTO │ │ │ │ └── DepartmentDTO.java # Department DTO │ │ │ ├── exception/ # Custom exceptions and handlers │ │ │ │ └── ResourceNotFoundException.java # Custom exception for handling 404 errors │ │ │ └── config/ # Configuration files (e.g., security, database) │ │ │ └── WebConfig.java # Web configurations, CORS settings, etc. │ ├── resources/ │ │ ├── application.properties # Configuration properties │ │ └── static/ # Static files (CSS, JS, Images) │ │ └── index.html # Static HTML (if using a front-end) ├── pom.xml # Maven build file (for dependency management) └── target/ # Compiled classes and JAR (output folder)
-
 
 ### 1. Web Layer (Controller)
 - Contains REST API controllers that handle HTTP requests and responses.
